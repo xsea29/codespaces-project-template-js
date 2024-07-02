@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://xsea29.github.io/codespaces-project-template-js [Codespaces: orgranic disco]",
+  "homepage": "https://xsea29.github.io/workspaces/codespaces-project-template-js",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
