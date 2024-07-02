@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://xsea29.github.io/portfolio-website'",
+    "build-gh": "parcel build --public-url 'https://xsea29.github.io/portfolio-website",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
