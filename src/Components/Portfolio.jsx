@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/image--2.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "laptop with portfolio work";
 
 /**
  * Project list
@@ -31,27 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Web Chat Application",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+      "Built a high-performance real-time web chat system using socket programming and MERN Stack,decreasing server response latency by 60% and improving user retention by 30%",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "E-Commerce Web Application",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "Innovated and launched a dynamic E-commerce platform using React and MongoDB; optimized site performance by 40%.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "Budget Expense Tracker",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+      "Engineered an innovative financial solution incorporating real-time expense tracking, comprehensive income monitoring, and intuitive budgeting features.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "To-Do Application",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+      "A streamlined to-do app designed for effortlessly adding, completing, and deleting tasks, boosting productivity with intuitive task management.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
@@ -64,6 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
+            className="animated-image"
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
